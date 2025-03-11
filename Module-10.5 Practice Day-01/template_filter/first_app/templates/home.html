@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{value | length}}</h1>
+    <h1>{{num1 | add:"2"}}</h1>
+    <h1>{{"I'm Jai" | addslashes}}</h1>
+    <h4>{{"jai" | capfirst}}</h4>
+    <h1>{{"Ishrakul Tahmid" | center:"10"}}</h1>
+    <h1>{{"Ishrakul Tahmid" | cut:" "}}</h1>
+    <h1>{{date | date:"D d M Y"}}</h1>
+    <h1>{{val | default:"nothing"}}</h1>
+    <h3>{{info | dictsort:"age"}}</h3>
+    <h1>{{21 | divisibleby:"3"}}</h1>
+    <h2>{{home.html | filesizeformat}}</h2>
+    <h1>{{joinval | join:" // "}}</h1>
+    <h1>{{joinval | last}}</h1>
+    <h1>{{jval | linenumbers}}</h1>
+    <h2>{{"IShrakul" | lower}}</h2>
+    <h2>{{"IShrakul" | make_list}}</h2>
+    <h2>{{value | random}}</h2>
+    <h2>{{value | slice:"2"}}</h2>
+    <h2>{{"Jai is a slug" | slugify}}</h2>
+    <h2>{{date | time:"H:i"}}</h2>
+    <h2>{{"my FIRST post" | title}}</h2>
+    <h1>{{var | unordered_list }}</h1>
+    <h1>{{"Ishrakul Tahmid" | upper}}</h1>
+    <h1>{{"Ishrakul Tahmid" | wordcount}}</h1>
+</body>
+</html>
